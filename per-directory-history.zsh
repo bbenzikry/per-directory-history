@@ -25,10 +25,6 @@ function per-directory-history-toggle-history() {
 			_hsmw_simulate_widget
 		fi
 	fi
-    _p9k_refresh_reason=history_type
-    _p9k_set_prompt
-    _p9k_refresh_reason=''
-    _p9k_reset_prompt
 }
 
 autoload per-directory-history-toggle-history
